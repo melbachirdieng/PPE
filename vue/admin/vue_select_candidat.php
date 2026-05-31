@@ -10,8 +10,13 @@
                 <th>NOM</th>
                 <th>PRÉNOM</th>
                 <th>EMAIL</th>
+
                 <th>TÉLÉPHONE</th>
                 <th style="text-align: center;">ACTIONS</th>
+
+                <th>TÉL</th>
+                <th>ACTIONS</th>
+
             </tr>
         </thead>
         <tbody>
