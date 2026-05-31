@@ -119,7 +119,7 @@ INSERT INTO `moniteur` (`idmoniteur`, `idutilisateur`, `experience`, `type_permi
 -- =====================================================
 -- TABLE : vehicule
 -- =====================================================
-
+SET NAMES utf8mb4;
 DROP TABLE IF EXISTS `vehicule`;
 CREATE TABLE `vehicule` (
   `idvehicule`    int NOT NULL AUTO_INCREMENT,
@@ -159,7 +159,7 @@ CREATE TABLE `cours` (
   `date_cours` date DEFAULT NULL,
   `heure_debut` time DEFAULT NULL,
   `heure_fin`  time DEFAULT NULL,
-  `statut`     varchar(20) COLLATE utf8mb4_unicode_ci DEFAULT 'À venir',
+  `statut`     varchar(20) COLLATE utf8mb4_unicode_ci DEFAULT 'A venir',
   `idvehicule` int NOT NULL,
   `idmoniteur` int NOT NULL,
   `idcandidat` int NOT NULL,
